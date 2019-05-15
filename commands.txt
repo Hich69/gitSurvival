@@ -9,3 +9,6 @@ git push origin +master (to force the push)
 
 git reset --hard HEAD
 git reset --hard HEAD~1
+git push -f (force)
+
+git revert <commit_name> (best way to process)
