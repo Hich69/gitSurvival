@@ -6,3 +6,6 @@ git push origin <tag_name> (push one particular tag)
 git log --pretty=oneline --abbrev-commit (show all logs rapidly)
 
 git push origin +master (to force the push)
+
+git reset --hard HEAD
+git reset --hard HEAD~1
