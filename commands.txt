@@ -12,3 +12,8 @@ git reset --hard HEAD~1
 git push -f (force)
 
 git revert <commit_name> (best way to process)
+
+### when .gitignore is not working
+git rm -r --cached file_names or .
+git add .
+git commit -am ".gitignore is now working !!!"
