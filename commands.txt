@@ -17,3 +17,5 @@ git revert <commit_name> (best way to process)
 git rm -r --cached file_names or .
 git add .
 git commit -am ".gitignore is now working !!!"
+
+git update-ref -d refs/original/refs/heads/master
