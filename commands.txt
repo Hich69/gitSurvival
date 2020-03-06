@@ -19,3 +19,9 @@ git add .
 git commit -am ".gitignore is now working !!!"
 
 git update-ref -d refs/original/refs/heads/master
+
+### store login/password while pulling/pushing
+git config credential.helper store
+git push https://github.com/owner/repo.git
+
+
